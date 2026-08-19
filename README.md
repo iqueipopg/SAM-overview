@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo_horizontal_dark.svg">
-    <img src="assets/logo_horizontal_light.svg" alt="SAM — Systematic Agent for Meta-analysis" width="420">
+    <img src="assets/logo_horizontal_light.svg" alt="SAM: Systematic Agent for Meta-analysis" width="420">
   </picture>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## What is SAM?
 
-**SAM** (Systematic Agent for Meta-analysis) is a multi-agent pipeline that automates the full systematic review workflow — from protocol design to manuscript generation. Give it a clinical research question and it will search databases, screen papers, retrieve full texts, extract data, assess quality, run meta-analysis, and write a manuscript.
+**SAM** (Systematic Agent for Meta-analysis) is a multi-agent pipeline that automates the full systematic review workflow, from protocol design to manuscript generation. Give it a clinical research question and it will search databases, screen papers, retrieve full texts, extract data, assess quality, run meta-analysis, and write a manuscript.
 
 Developed as part of the **Trabajo de Fin de Grado (TFG)** at **Universidad Pontificia Comillas (ICAI)**, Engineering Mathematics (iMAT) program.
 
@@ -39,7 +39,7 @@ Developed as part of the **Trabajo de Fin de Grado (TFG)** at **Universidad Pont
 - **4 search databases**: PubMed, Europe PMC, Semantic Scholar, Google Scholar
 - **Multi-source full-text retrieval cascade** with graceful degradation to abstract-only screening
 - **3 quality assessment tools**: RoB 2.0 (RCTs), ROBINS-I (observational), JBI (qualitative)
-- **R/metafor statistical synthesis** — REML, Egger's test, trim-and-fill, Rosenthal's Fail-Safe N, leave-one-out, subgroups, meta-regression, GRADE; no LLM for statistics
+- **R/metafor statistical synthesis**: REML, Egger's test, trim-and-fill, Rosenthal's Fail-Safe N, leave-one-out, subgroups, meta-regression, GRADE; no LLM for statistics
 - **RAG-based manuscript generation** with FAISS + MiniLM-L6-v2
 - **Explainability & traceability** report (A9): per-paper Excel trace + explainability report in Spanish
 - **Model-agnostic**: auto-detects chat templates, works with any HuggingFace model
@@ -99,11 +99,11 @@ Developed as part of the **Trabajo de Fin de Grado (TFG)** at **Universidad Pont
 
 ## Authors
 
-**Trabajo de Fin de Grado (TFG)** — Comillas Pontifical University, ICAI.
+**Trabajo de Fin de Grado (TFG)**, Comillas Pontifical University, ICAI.
 Presented as a poster at **CIPIE 2026** (II Congreso Internacional de
 Psicología, Innovación Tecnológica y Emprendimiento), Madrid, July 2026.
 
-- **Ignacio Queipo de Llano Pérez-Gascón**¹ *(corresponding author)* —
+- **Ignacio Queipo de Llano Pérez-Gascón**¹ *(corresponding author)*:
   [iqueipo.pg24@gmail.com](mailto:iqueipo.pg24@gmail.com)
 - **Á. López-López**⁵
 - **S. Lumbreras**⁵
@@ -134,12 +134,12 @@ is published, cite the software:
 
 > Queipo de Llano Pérez-Gascón, I., López-López, Á., Lumbreras, S.,
 > Collazo-Castiñeira, P., Sánchez-Izquierdo, M., Echegoyen, I., &
-> Garrido-Merchán, E. C. (2026). *SAM: Systematic Agent for Meta-analysis —
-> A multi-agent LLM system for automating systematic reviews and
+> Garrido-Merchán, E. C. (2026). *SAM: Systematic Agent for Meta-analysis,
+> a multi-agent LLM system for automating systematic reviews and
 > meta-analyses* [Software]. https://github.com/iqueipopg/SAM-overview
 
 ---
 
-**Version:** v0.6.0 — 9 agents (A1-A9), 991 automated tests (879 passing; the rest skipped or xfail for deferred features / GPU-only paths).
+**Version:** v0.6.0. 9 agents (A1-A9), 991 automated tests (879 passing; the rest skipped or xfail for deferred features / GPU-only paths).
 
 Copyright (c) 2026 Ignacio Queipo de Llano Perez-Gascon and the SAM authors.
