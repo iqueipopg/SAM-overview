@@ -1,3 +1,5 @@
+> **This overview is archived. The full source code, with its history, is now public at [iqueipopg/SAM](https://github.com/iqueipopg/SAM).**
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo_horizontal_dark.svg">
